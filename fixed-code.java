@@ -71,7 +71,7 @@ class ExamplesPerson {
     t.checkExpect(this.unknown.getName(), "Unknown");
     t.checkExpect(this.paul.getName(), "Paul");
     t.checkExpect(this.steve.getName(), "Steve");
-    t.checkExpect(this.unknown.getName(), "Martha");
+    t.checkExpect(this.martha.getName(), "Martha");
     t.checkExpect(this.ashley.getName(), "Ashley");
   }
   
@@ -79,7 +79,7 @@ class ExamplesPerson {
     t.checkExpect(this.unknown.info(), "N/A");
     t.checkExpect(this.paul.info(), "Paul (42), child of Unknown and Unknown");
     t.checkExpect(this.steve.info(), "Steve (45), child of Unknown and Unknown");
-    t.checkExpect(this.unknown.info(), "Martha (27), child of Unknown and Paul");
+    t.checkExpect(this.martha.info(), "Martha (27), child of Unknown and Paul");
     t.checkExpect(this.ashley.info(), "Ashley (8), child of Martha and Steve");
   }
   
